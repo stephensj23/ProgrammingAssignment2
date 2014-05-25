@@ -1,10 +1,12 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
 makeCacheMatrix <- function(x = matrix()) {
+        ## X is an invertable matriX 
+        ## Returns a matrix that can cache it's inverse
 
+        # solve for the inversion of X
+        dummy <- solve(x)
+        # assign the inversion to a variable that stays in cache
+        
+        
 }
 
 
